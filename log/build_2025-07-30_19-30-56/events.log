@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (robot_ras_decision) JobQueued: {'identifier': 'robot_ras_decision', 'dependencies': OrderedDict()}
+[0.000480] (robot_ras_ros) JobQueued: {'identifier': 'robot_ras_ros', 'dependencies': OrderedDict()}
+[0.000607] (robot_ras_decision) JobStarted: {'identifier': 'robot_ras_decision'}
+[0.006092] (robot_ras_ros) JobStarted: {'identifier': 'robot_ras_ros'}
+[0.009622] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'cmake'}
+[0.010165] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'build'}
+[0.010827] (robot_ras_decision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pedro/ros2_ws/build/robot_ras_decision', '--', '-j6', '-l6'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_decision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_decision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[0.014203] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'cmake'}
+[0.014995] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'build'}
+[0.015951] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pedro/ros2_ws/build/robot_ras_ros', '--', '-j6', '-l6'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[0.058940] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.060042] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'install'}
+[0.060074] (robot_ras_decision) StdoutLine: {'line': b'[  2%] Built target robot_ras_decision__cpp\n'}
+[0.062531] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] Built target robot_ras_decision__rosidl_generator_c\n'}
+[0.068084] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pedro/ros2_ws/build/robot_ras_ros'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[0.068685] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_robot_ras_decision\n'}
+[0.076708] (robot_ras_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.076912] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf\n'}
+[0.079002] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/lidar.xacro\n'}
+[0.079150] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/gazebo_elementos.xacro\n'}
+[0.079236] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/robot.urdf.xacro\n'}
+[0.079303] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda_boba.xacro\n'}
+[0.081727] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/chassis.xacro\n'}
+[0.081917] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/materiais.xacro\n'}
+[0.082049] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/propriedades.xacro\n'}
+[0.082129] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda.xacro\n'}
+[0.082198] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch\n'}
+[0.082257] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/gazebo.launch.py\n'}
+[0.082329] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/spawn.launch.py\n'}
+[0.082382] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds\n'}
+[0.082443] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/labirinth.world\n'}
+[0.082496] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/hacka_labirinth.world\n'}
+[0.082549] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/params\n'}
+[0.082601] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/params/ros2_control.yaml\n'}
+[0.082652] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/rviz\n'}
+[0.082744] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/rviz/default.rviz\n'}
+[0.082797] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models\n'}
+[0.082848] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall\n'}
+[0.082900] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.sdf\n'}
+[0.082953] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.config\n'}
+[0.083005] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls\n'}
+[0.083057] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.sdf\n'}
+[0.083239] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.config\n'}
+[0.083375] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth\n'}
+[0.083666] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.sdf\n'}
+[0.083740] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.config\n'}
+[0.083799] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth\n'}
+[0.083854] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.sdf\n'}
+[0.083908] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.config\n'}
+[0.083961] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.084023] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/package_run_dependencies/robot_ras_ros\n'}
+[0.084077] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/parent_prefix_path/robot_ras_ros\n'}
+[0.084129] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.sh\n'}
+[0.084219] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.dsv\n'}
+[0.084347] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.sh\n'}
+[0.084593] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.dsv\n'}
+[0.086087] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.bash\n'}
+[0.086344] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.sh\n'}
+[0.086424] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.zsh\n'}
+[0.086505] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.dsv\n'}
+[0.086559] (robot_ras_ros) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.dsv\n'}
+[0.086612] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/packages/robot_ras_ros\n'}
+[0.086664] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig.cmake\n'}
+[0.086715] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig-version.cmake\n'}
+[0.086768] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.086819] (robot_ras_decision) StdoutLine: {'line': b'[ 20%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp\n'}
+[0.086883] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.087131] (robot_ras_decision) StdoutLine: {'line': b'[ 30%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp\n'}
+[0.087260] (robot_ras_decision) StdoutLine: {'line': b'[ 39%] Built target robot_ras_decision__rosidl_typesupport_cpp\n'}
+[0.092508] (robot_ras_decision) StdoutLine: {'line': b'[ 48%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c\n'}
+[0.094958] (robot_ras_decision) StdoutLine: {'line': b'[ 58%] Built target robot_ras_decision__rosidl_typesupport_c\n'}
+[0.095073] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_introspection_c\n'}
+[0.099715] (-) TimerEvent: {}
+[0.101653] (robot_ras_ros) JobEnded: {'identifier': 'robot_ras_ros', 'rc': 0}
+[0.114645] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision\n'}
+[0.126425] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target MovementControl\x1b[0m\n'}
+[0.134386] (robot_ras_decision) StdoutLine: {'line': b'[ 69%] Built target robot_ras_decision__py\n'}
+[0.139315] (robot_ras_decision) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.145106] (robot_ras_decision) StdoutLine: {'line': b'[ 76%] Built target MovementControl\n'}
+[0.156284] (robot_ras_decision) StdoutLine: {'line': b'[ 83%] Built target robot_ras_decision__rosidl_generator_py\n'}
+[0.179197] (robot_ras_decision) StdoutLine: {'line': b'[ 93%] Built target robot_ras_decision__rosidl_typesupport_c__pyext\n'}
+[0.179361] (robot_ras_decision) StdoutLine: {'line': b'[ 93%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext\n'}
+[0.179431] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199798] (-) TimerEvent: {}
+[0.299551] (robot_ras_decision) StdoutLine: {'line': b'running egg_info\n'}
+[0.299859] (-) TimerEvent: {}
+[0.300232] (robot_ras_decision) StdoutLine: {'line': b'writing robot_ras_decision.egg-info/PKG-INFO\n'}
+[0.300458] (robot_ras_decision) StdoutLine: {'line': b'writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt\n'}
+[0.300622] (robot_ras_decision) StdoutLine: {'line': b'writing top-level names to robot_ras_decision.egg-info/top_level.txt\n'}
+[0.302331] (robot_ras_decision) StdoutLine: {'line': b"reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[0.302834] (robot_ras_decision) StdoutLine: {'line': b"writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[0.325670] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_robot_ras_decision_egg\n'}
+[0.399984] (-) TimerEvent: {}
+[0.500251] (-) TimerEvent: {}
+[0.600500] (-) TimerEvent: {}
+[0.700757] (-) TimerEvent: {}
+[0.801017] (-) TimerEvent: {}
+[0.901244] (-) TimerEvent: {}
+[1.001499] (-) TimerEvent: {}
+[1.101763] (-) TimerEvent: {}
+[1.202012] (-) TimerEvent: {}
+[1.302245] (-) TimerEvent: {}
+[1.402499] (-) TimerEvent: {}
+[1.502752] (-) TimerEvent: {}
+[1.603013] (-) TimerEvent: {}
+[1.703245] (-) TimerEvent: {}
+[1.803513] (-) TimerEvent: {}
+[1.903770] (-) TimerEvent: {}
+[2.004032] (-) TimerEvent: {}
+[2.104239] (-) TimerEvent: {}
+[2.204493] (-) TimerEvent: {}
+[2.250240] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Manager::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.250404] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:133:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdirecao\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.250467] (robot_ras_decision) StderrLine: {'line': b'  133 | \x1b[01;31m\x1b[Kdirecao\x1b[m\x1b[K = "right";\n'}
+[2.250524] (robot_ras_decision) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.250683] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:66:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktempo_frente\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.250770] (robot_ras_decision) StderrLine: {'line': b'   66 |   float \x1b[01;35m\x1b[Ktempo_frente\x1b[m\x1b[K = (distancia_frente_ > 0.05f) ? distancia_frente_ / velocidade_linear : 1000.0f;\n'}
+[2.250831] (robot_ras_decision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.304603] (-) TimerEvent: {}
+[2.404861] (-) TimerEvent: {}
+[2.505121] (-) TimerEvent: {}
+[2.605355] (-) TimerEvent: {}
+[2.705611] (-) TimerEvent: {}
+[2.805870] (-) TimerEvent: {}
+[2.906129] (-) TimerEvent: {}
+[3.006372] (-) TimerEvent: {}
+[3.106639] (-) TimerEvent: {}
+[3.206907] (-) TimerEvent: {}
+[3.307173] (-) TimerEvent: {}
+[3.407410] (-) TimerEvent: {}
+[3.507680] (-) TimerEvent: {}
+[3.607950] (-) TimerEvent: {}
+[3.708220] (-) TimerEvent: {}
+[3.808481] (-) TimerEvent: {}
+[3.908753] (-) TimerEvent: {}
+[4.009020] (-) TimerEvent: {}
+[4.109265] (-) TimerEvent: {}
+[4.209542] (-) TimerEvent: {}
+[4.309802] (-) TimerEvent: {}
+[4.410078] (-) TimerEvent: {}
+[4.459188] (robot_ras_decision) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1\n'}
+[4.459404] (robot_ras_decision) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/Manager.dir/all] Error 2\n'}
+[4.459617] (robot_ras_decision) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.461341] (robot_ras_decision) CommandEnded: {'returncode': 2}
+[4.468956] (robot_ras_decision) JobEnded: {'identifier': 'robot_ras_decision', 'rc': 2}
+[4.479416] (-) EventReactorShutdown: {}

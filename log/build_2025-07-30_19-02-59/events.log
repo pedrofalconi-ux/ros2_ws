@@ -1,0 +1,353 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (robot_ras_decision) JobQueued: {'identifier': 'robot_ras_decision', 'dependencies': OrderedDict()}
+[0.000233] (robot_ras_ros) JobQueued: {'identifier': 'robot_ras_ros', 'dependencies': OrderedDict()}
+[0.000251] (robot_ras_decision) JobStarted: {'identifier': 'robot_ras_decision'}
+[0.005522] (robot_ras_ros) JobStarted: {'identifier': 'robot_ras_ros'}
+[0.008945] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'cmake'}
+[0.009518] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'build'}
+[0.010139] (robot_ras_decision) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pedro/ros2_ws/build/robot_ras_decision', '--', '-j6', '-l6'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_decision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_decision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[0.015022] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'cmake'}
+[0.016320] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'build'}
+[0.016368] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pedro/ros2_ws/build/robot_ras_ros', '--', '-j6', '-l6'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[0.064509] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.064867] (robot_ras_ros) JobProgress: {'identifier': 'robot_ras_ros', 'progress': 'install'}
+[0.066466] (robot_ras_decision) StdoutLine: {'line': b'[  2%] Built target robot_ras_decision__cpp\n'}
+[0.069808] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] Built target robot_ras_decision__rosidl_generator_c\n'}
+[0.076005] (robot_ras_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pedro/ros2_ws/build/robot_ras_ros'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[0.077869] (robot_ras_decision) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_robot_ras_decision\n'}
+[0.084131] (robot_ras_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.084918] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf\n'}
+[0.085077] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/lidar.xacro\n'}
+[0.085142] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/gazebo_elementos.xacro\n'}
+[0.085198] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/robot.urdf.xacro\n'}
+[0.085252] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda_boba.xacro\n'}
+[0.085303] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/chassis.xacro\n'}
+[0.085354] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/materiais.xacro\n'}
+[0.085404] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/propriedades.xacro\n'}
+[0.086928] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/urdf/roda.xacro\n'}
+[0.087029] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch\n'}
+[0.087087] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/gazebo.launch.py\n'}
+[0.087142] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/launch/spawn.launch.py\n'}
+[0.087195] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds\n'}
+[0.087267] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/labirinth.world\n'}
+[0.087319] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/worlds/hacka_labirinth.world\n'}
+[0.087371] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/params\n'}
+[0.087422] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/params/ros2_control.yaml\n'}
+[0.087472] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/rviz\n'}
+[0.087524] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/rviz/default.rviz\n'}
+[0.088768] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models\n'}
+[0.089061] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall\n'}
+[0.089127] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.sdf\n'}
+[0.089184] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_wall/model.config\n'}
+[0.089238] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls\n'}
+[0.089290] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.sdf\n'}
+[0.089341] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/walls/model.config\n'}
+[0.089392] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth\n'}
+[0.089441] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.sdf\n'}
+[0.090113] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/labirinth/model.config\n'}
+[0.091788] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth\n'}
+[0.091879] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.sdf\n'}
+[0.091937] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/models/hacka_labirinth/model.config\n'}
+[0.091991] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.092054] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/package_run_dependencies/robot_ras_ros\n'}
+[0.092108] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/parent_prefix_path/robot_ras_ros\n'}
+[0.092159] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.sh\n'}
+[0.092210] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/ament_prefix_path.dsv\n'}
+[0.092260] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.sh\n'}
+[0.092311] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/environment/path.dsv\n'}
+[0.092367] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.bash\n'}
+[0.092416] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.sh\n'}
+[0.093657] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.zsh\n'}
+[0.093756] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/local_setup.dsv\n'}
+[0.093821] (robot_ras_ros) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.dsv\n'}
+[0.093882] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/ament_index/resource_index/packages/robot_ras_ros\n'}
+[0.093934] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig.cmake\n'}
+[0.093985] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/cmake/robot_ras_rosConfig-version.cmake\n'}
+[0.094037] (robot_ras_ros) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_ros/share/robot_ras_ros/package.xml\n'}
+[0.094091] (robot_ras_ros) CommandEnded: {'returncode': 0}
+[0.096127] (robot_ras_decision) StdoutLine: {'line': b'[ 20%] Built target robot_ras_decision__rosidl_typesupport_introspection_cpp\n'}
+[0.099437] (-) TimerEvent: {}
+[0.100535] (robot_ras_decision) StdoutLine: {'line': b'[ 30%] Built target robot_ras_decision__rosidl_typesupport_cpp\n'}
+[0.107697] (robot_ras_decision) StdoutLine: {'line': b'[ 39%] Built target robot_ras_decision__rosidl_typesupport_introspection_c\n'}
+[0.108619] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_cpp\n'}
+[0.108789] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c\n'}
+[0.108878] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision__rosidl_typesupport_c\n'}
+[0.119986] (robot_ras_ros) JobEnded: {'identifier': 'robot_ras_ros', 'rc': 0}
+[0.129522] (robot_ras_decision) StdoutLine: {'line': b'[ 67%] Built target robot_ras_decision\n'}
+[0.143580] (robot_ras_decision) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Manager\x1b[0m\n'}
+[0.153367] (robot_ras_decision) StdoutLine: {'line': b'[ 69%] Built target robot_ras_decision__py\n'}
+[0.160230] (robot_ras_decision) StdoutLine: {'line': b'[ 74%] Built target MovementControl\n'}
+[0.162446] (robot_ras_decision) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/Manager.dir/src/manager.cpp.o\x1b[0m\n'}
+[0.179020] (robot_ras_decision) StdoutLine: {'line': b'[ 83%] Built target robot_ras_decision__rosidl_generator_py\n'}
+[0.199538] (-) TimerEvent: {}
+[0.206577] (robot_ras_decision) StdoutLine: {'line': b'[ 88%] Built target robot_ras_decision__rosidl_typesupport_introspection_c__pyext\n'}
+[0.208909] (robot_ras_decision) StdoutLine: {'line': b'[ 93%] Built target robot_ras_decision__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.212522] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] Built target robot_ras_decision__rosidl_typesupport_c__pyext\n'}
+[0.299623] (-) TimerEvent: {}
+[0.337582] (robot_ras_decision) StdoutLine: {'line': b'running egg_info\n'}
+[0.338526] (robot_ras_decision) StdoutLine: {'line': b'writing robot_ras_decision.egg-info/PKG-INFO\n'}
+[0.338963] (robot_ras_decision) StdoutLine: {'line': b'writing dependency_links to robot_ras_decision.egg-info/dependency_links.txt\n'}
+[0.339104] (robot_ras_decision) StdoutLine: {'line': b'writing top-level names to robot_ras_decision.egg-info/top_level.txt\n'}
+[0.341461] (robot_ras_decision) StdoutLine: {'line': b"reading manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[0.342052] (robot_ras_decision) StdoutLine: {'line': b"writing manifest file 'robot_ras_decision.egg-info/SOURCES.txt'\n"}
+[0.380207] (robot_ras_decision) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_robot_ras_decision_egg\n'}
+[0.399761] (-) TimerEvent: {}
+[0.499992] (-) TimerEvent: {}
+[0.600221] (-) TimerEvent: {}
+[0.700447] (-) TimerEvent: {}
+[0.800697] (-) TimerEvent: {}
+[0.901768] (-) TimerEvent: {}
+[1.002180] (-) TimerEvent: {}
+[1.102624] (-) TimerEvent: {}
+[1.202899] (-) TimerEvent: {}
+[1.303137] (-) TimerEvent: {}
+[1.403412] (-) TimerEvent: {}
+[1.503742] (-) TimerEvent: {}
+[1.604004] (-) TimerEvent: {}
+[1.704248] (-) TimerEvent: {}
+[1.804520] (-) TimerEvent: {}
+[1.904781] (-) TimerEvent: {}
+[2.005029] (-) TimerEvent: {}
+[2.105283] (-) TimerEvent: {}
+[2.205543] (-) TimerEvent: {}
+[2.305796] (-) TimerEvent: {}
+[2.347207] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Manager::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.347417] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:50:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktempo_minimo_lateral\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.347493] (robot_ras_decision) StderrLine: {'line': b'   50 |   float \x1b[01;35m\x1b[Ktempo_minimo_lateral\x1b[m\x1b[K = 0.2f; // Tempo m\xc3\xadnimo de "seguran\xc3\xa7a" para uma lateral (equivalente a 0.2s * 2.2m/s = 0.44m)\n'}
+[2.347557] (robot_ras_decision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.347617] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:52:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktempo_alvo_centralizacao\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.347679] (robot_ras_decision) StderrLine: {'line': b'   52 |   float \x1b[01;35m\x1b[Ktempo_alvo_centralizacao\x1b[m\x1b[K = 0.3f; // Tempo ideal que queremos ter para ambos os lados (equivalente a 0.3s * 2.2m/s = 0.66m de espa\xc3\xa7o)\n'}
+[2.347739] (robot_ras_decision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.347796] (robot_ras_decision) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:62:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktempo_frente\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.347869] (robot_ras_decision) StderrLine: {'line': b'   62 |   float \x1b[01;35m\x1b[Ktempo_frente\x1b[m\x1b[K = (distancia_frente_ > 0.05f) ? distancia_frente_ / velocidade_linear : 1000.0f;\n'}
+[2.348099] (robot_ras_decision) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.405901] (-) TimerEvent: {}
+[2.506145] (-) TimerEvent: {}
+[2.606408] (-) TimerEvent: {}
+[2.706679] (-) TimerEvent: {}
+[2.806899] (-) TimerEvent: {}
+[2.907148] (-) TimerEvent: {}
+[3.007378] (-) TimerEvent: {}
+[3.107615] (-) TimerEvent: {}
+[3.207883] (-) TimerEvent: {}
+[3.308144] (-) TimerEvent: {}
+[3.408389] (-) TimerEvent: {}
+[3.508676] (-) TimerEvent: {}
+[3.608897] (-) TimerEvent: {}
+[3.709142] (-) TimerEvent: {}
+[3.809411] (-) TimerEvent: {}
+[3.909693] (-) TimerEvent: {}
+[4.009979] (-) TimerEvent: {}
+[4.110302] (-) TimerEvent: {}
+[4.210555] (-) TimerEvent: {}
+[4.310788] (-) TimerEvent: {}
+[4.411050] (-) TimerEvent: {}
+[4.511289] (-) TimerEvent: {}
+[4.611573] (-) TimerEvent: {}
+[4.711901] (-) TimerEvent: {}
+[4.812155] (-) TimerEvent: {}
+[4.912459] (-) TimerEvent: {}
+[5.012694] (-) TimerEvent: {}
+[5.112932] (-) TimerEvent: {}
+[5.213201] (-) TimerEvent: {}
+[5.313425] (-) TimerEvent: {}
+[5.413710] (-) TimerEvent: {}
+[5.514034] (-) TimerEvent: {}
+[5.614302] (-) TimerEvent: {}
+[5.714556] (-) TimerEvent: {}
+[5.814803] (-) TimerEvent: {}
+[5.915039] (-) TimerEvent: {}
+[6.015262] (-) TimerEvent: {}
+[6.115519] (-) TimerEvent: {}
+[6.215753] (-) TimerEvent: {}
+[6.315991] (-) TimerEvent: {}
+[6.416213] (-) TimerEvent: {}
+[6.516460] (-) TimerEvent: {}
+[6.616720] (-) TimerEvent: {}
+[6.716974] (-) TimerEvent: {}
+[6.817199] (-) TimerEvent: {}
+[6.917449] (-) TimerEvent: {}
+[7.017683] (-) TimerEvent: {}
+[7.117897] (-) TimerEvent: {}
+[7.218128] (-) TimerEvent: {}
+[7.318374] (-) TimerEvent: {}
+[7.418677] (-) TimerEvent: {}
+[7.519301] (-) TimerEvent: {}
+[7.619599] (-) TimerEvent: {}
+[7.719864] (-) TimerEvent: {}
+[7.820125] (-) TimerEvent: {}
+[7.920477] (-) TimerEvent: {}
+[8.020803] (-) TimerEvent: {}
+[8.033048] (robot_ras_decision) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable Manager\x1b[0m\n'}
+[8.120922] (-) TimerEvent: {}
+[8.221216] (-) TimerEvent: {}
+[8.321493] (-) TimerEvent: {}
+[8.421742] (-) TimerEvent: {}
+[8.519440] (robot_ras_decision) StdoutLine: {'line': b'[100%] Built target Manager\n'}
+[8.521974] (-) TimerEvent: {}
+[8.530601] (robot_ras_decision) CommandEnded: {'returncode': 0}
+[8.531612] (robot_ras_decision) JobProgress: {'identifier': 'robot_ras_decision', 'progress': 'install'}
+[8.532316] (robot_ras_decision) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pedro/ros2_ws/build/robot_ras_decision'], 'cwd': '/home/pedro/ros2_ws/build/robot_ras_decision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pedro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/ros2_ws/install/robot_ras_decision/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '13815'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pedro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pedro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pedro-H310M-S2P-2-0:@/tmp/.ICE-unix/1103,unix/pedro-H310M-S2P-2-0:/tmp/.ICE-unix/1103'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9042fd0_2a05_4b85_9f37_104c2f8aee97'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.N7DEA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/ros2_ws/build/robot_ras_decision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/robot_ras_ros:/home/pedro/ros2_ws/install/robot_ras_decision:/opt/ros/humble')]), 'shell': False}
+[8.541794] (robot_ras_decision) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.542862] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/rosidl_interfaces/robot_ras_decision\n'}
+[8.543152] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision\n'}
+[8.543478] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv\n'}
+[8.543920] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/set_velocity.h\n'}
+[8.544177] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail\n'}
+[8.544641] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__type_support.h\n'}
+[8.544878] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__functions.h\n'}
+[8.545127] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__struct.h\n'}
+[8.545460] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__functions.c\n'}
+[8.545868] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg\n'}
+[8.546074] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/movement.h\n'}
+[8.546227] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.546390] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail\n'}
+[8.546529] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__functions.c\n'}
+[8.546665] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__functions.h\n'}
+[8.546800] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__struct.h\n'}
+[8.546978] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__type_support.h\n'}
+[8.547132] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/library_path.sh\n'}
+[8.547276] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/library_path.dsv\n'}
+[8.547534] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_generator_c.so\n'}
+[8.547668] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision\n'}
+[8.548154] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv\n'}
+[8.548458] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail\n'}
+[8.548796] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[8.549100] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg\n'}
+[8.549317] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.549470] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail\n'}
+[8.550120] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_fastrtps_c.h\n'}
+[8.551131] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_fastrtps_c.so\n'}
+[8.551544] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision\n'}
+[8.551786] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv\n'}
+[8.552014] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/set_velocity.hpp\n'}
+[8.552280] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail\n'}
+[8.552411] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__traits.hpp\n'}
+[8.552712] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__struct.hpp\n'}
+[8.552912] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__type_support.hpp\n'}
+[8.553051] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__builder.hpp\n'}
+[8.553169] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg\n'}
+[8.553415] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/movement.hpp\n'}
+[8.553596] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.553738] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail\n'}
+[8.553876] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__traits.hpp\n'}
+[8.554078] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__struct.hpp\n'}
+[8.554187] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__builder.hpp\n'}
+[8.554303] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__type_support.hpp\n'}
+[8.554405] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision\n'}
+[8.554504] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv\n'}
+[8.554603] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail\n'}
+[8.554701] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/dds_fastrtps\n'}
+[8.554803] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.554943] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg\n'}
+[8.555051] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.555220] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail\n'}
+[8.555320] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/dds_fastrtps\n'}
+[8.555421] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.555540] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.555709] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision\n'}
+[8.555906] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv\n'}
+[8.556093] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail\n'}
+[8.556315] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__type_support.c\n'}
+[8.556559] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h\n'}
+[8.556666] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg\n'}
+[8.556769] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.557001] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail\n'}
+[8.557116] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h\n'}
+[8.557210] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__type_support.c\n'}
+[8.557538] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_introspection_c.so\n'}
+[8.558472] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_c.so\n'}
+[8.558807] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision\n'}
+[8.559052] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv\n'}
+[8.559304] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail\n'}
+[8.559524] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.559663] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/srv/detail/set_velocity__type_support.cpp\n'}
+[8.559769] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg\n'}
+[8.559932] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail\n'}
+[8.560027] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.560129] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/include/robot_ras_decision/robot_ras_decision/msg/detail/movement__type_support.cpp\n'}
+[8.560722] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_introspection_cpp.so\n'}
+[8.561774] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_typesupport_cpp.so\n'}
+[8.562154] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/pythonpath.sh\n'}
+[8.562344] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/pythonpath.dsv\n'}
+[8.562459] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.1-py3.10.egg-info\n'}
+[8.562554] (robot_ras_decision) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[8.562767] (robot_ras_decision) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[8.563144] (robot_ras_decision) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[8.563366] (robot_ras_decision) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[8.563945] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision\n'}
+[8.564113] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv\n'}
+[8.564344] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv/__init__.py\n'}
+[8.564485] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv/_set_velocity_s.c\n'}
+[8.564585] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv/_set_velocity.py\n'}
+[8.564679] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/__init__.py\n'}
+[8.564768] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.564886] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_c.c\n'}
+[8.564978] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg\n'}
+[8.565065] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg/__init__.py\n'}
+[8.565150] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg/_movement_s.c\n'}
+[8.565248] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg/_movement.py\n'}
+[8.565331] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.565426] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.565511] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/_robot_ras_decision_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.565594] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/librobot_ras_decision__rosidl_generator_py.so\n'}
+[8.565681] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.615927] (robot_ras_decision) StdoutLine: {'line': b"Listing '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision'...\n"}
+[8.616115] (robot_ras_decision) StdoutLine: {'line': b"Listing '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/msg'...\n"}
+[8.616180] (robot_ras_decision) StdoutLine: {'line': b"Listing '/home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/srv'...\n"}
+[8.621636] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.622037] (-) TimerEvent: {}
+[8.622367] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.623137] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/local/lib/python3.10/dist-packages/robot_ras_decision/robot_ras_decision_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.623925] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/librobot_ras_decision__rosidl_generator_py.so\n'}
+[8.624184] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/msg/Movement.idl\n'}
+[8.624316] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity.idl\n'}
+[8.624381] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/msg/Movement.msg\n'}
+[8.624444] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity.srv\n'}
+[8.624500] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity_Request.msg\n'}
+[8.624553] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/srv/SetVelocity_Response.msg\n'}
+[8.625018] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/MovementControl\n'}
+[8.625797] (robot_ras_decision) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/Manager\n'}
+[8.630044] (robot_ras_decision) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/ros2_ws/install/robot_ras_decision/lib/robot_ras_decision/Manager" to ""\n'}
+[8.630313] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/package_run_dependencies/robot_ras_decision\n'}
+[8.630411] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/parent_prefix_path/robot_ras_decision\n'}
+[8.630478] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.sh\n'}
+[8.630542] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/ament_prefix_path.dsv\n'}
+[8.630602] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.sh\n'}
+[8.630663] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/environment/path.dsv\n'}
+[8.630722] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.bash\n'}
+[8.630780] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.sh\n'}
+[8.630911] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.zsh\n'}
+[8.630972] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/local_setup.dsv\n'}
+[8.631025] (robot_ras_decision) StdoutLine: {'line': b'-- Installing: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.dsv\n'}
+[8.631111] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/ament_index/resource_index/packages/robot_ras_decision\n'}
+[8.631560] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_cExport.cmake\n'}
+[8.631654] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.632076] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.632177] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.632614] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_cppExport.cmake\n'}
+[8.633280] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.633379] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.633742] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.633849] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.634366] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cExport.cmake\n'}
+[8.634483] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.635017] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.635114] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.635576] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cppExport.cmake\n'}
+[8.635640] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decision__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.636160] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_pyExport.cmake\n'}
+[8.636293] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/export_robot_ras_decision__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.636357] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/rosidl_cmake-extras.cmake\n'}
+[8.636416] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.636475] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.636558] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.636620] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.636697] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.636749] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.636801] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig.cmake\n'}
+[8.636864] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/cmake/robot_ras_decisionConfig-version.cmake\n'}
+[8.636917] (robot_ras_decision) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/ros2_ws/install/robot_ras_decision/share/robot_ras_decision/package.xml\n'}
+[8.639016] (robot_ras_decision) CommandEnded: {'returncode': 0}
+[8.661759] (robot_ras_decision) JobEnded: {'identifier': 'robot_ras_decision', 'rc': 0}
+[8.662443] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::timer_callback()[m[K’:
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangulo[m[K’
+   74 |     msg.[01;31m[Kangulo[m[K = 0.0;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:84:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangulo[m[K’
+   84 |       msg.[01;31m[Kangulo[m[K = 1.57;  // curva de 90 graus para esquerda (em radianos)
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:91:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangulo[m[K’
+   91 |       msg.[01;31m[Kangulo[m[K = -1.57;  // curva de 90 graus para direita (negativo para sentido oposto)
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:98:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Movement = struct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct robot_ras_decision::msg::Movement_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangulo[m[K’
+   98 |       msg.[01;31m[Kangulo[m[K = 0.0;
+      |           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/Manager.dir/build.make:76: CMakeFiles/Manager.dir/src/manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:624: CMakeFiles/Manager.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:[m[K In member function ‘[01m[Kvoid Manager::timer_callback()[m[K’:
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:50:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktempo_minimo_lateral[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |   float [01;35m[Ktempo_minimo_lateral[m[K = 0.2f; // Tempo mínimo de "segurança" para uma lateral (equivalente a 0.2s * 2.2m/s = 0.44m)
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:52:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktempo_alvo_centralizacao[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   52 |   float [01;35m[Ktempo_alvo_centralizacao[m[K = 0.3f; // Tempo ideal que queremos ter para ambos os lados (equivalente a 0.3s * 2.2m/s = 0.66m de espaço)
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pedro/ros2_ws/src/robot_ras_decision/src/manager.cpp:62:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktempo_frente[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   62 |   float [01;35m[Ktempo_frente[m[K = (distancia_frente_ > 0.05f) ? distancia_frente_ / velocidade_linear : 1000.0f;
+      |         [01;35m[K^~~~~~~~~~~~[m[K

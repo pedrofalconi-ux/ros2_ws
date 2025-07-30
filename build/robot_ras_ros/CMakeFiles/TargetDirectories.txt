@@ -1,0 +1,9 @@
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/uninstall.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/robot_ras_ros_uninstall.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/test.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/edit_cache.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/rebuild_cache.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/list_install_components.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/install.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/install/local.dir
+/home/pedro/ros2_ws/build/robot_ras_ros/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o"
+  "CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c.o.d"
+  "CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o"
+  "CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c.o.d"
+  "librobot_ras_decision__rosidl_typesupport_introspection_c.pdb"
+  "librobot_ras_decision__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robot_ras_decision/msg/detail/movement__type_support.c"
+  "rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/robot_ras_decision/srv/detail/set_velocity__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/robot_ras_decision__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

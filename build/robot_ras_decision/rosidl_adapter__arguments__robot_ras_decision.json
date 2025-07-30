@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_ras_decision",
+  "non_idl_tuples": [
+    "/home/pedro/ros2_ws/src/robot_ras_decision:msg/Movement.msg",
+    "/home/pedro/ros2_ws/src/robot_ras_decision:srv/SetVelocity.srv"
+  ]
+}

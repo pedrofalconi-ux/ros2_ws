@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_ras_decision__py",
+		"source" : "/home/pedro/ros2_ws/build/robot_ras_decision/robot_ras_decision__py"
+	}
+}
